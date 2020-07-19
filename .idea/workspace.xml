@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71399ae7-fa2a-4979-a1c6-3fc7cb119c34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/functionType/1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/higherOrderFunction/1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/lambda/1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/lambdaWithReceiver/1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/libraryHelper/1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/memberReferences/1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/memberReferences/2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/memberReferences/3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/memberReferences/4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFucntionWithLambdaReceiver/1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFucntionWithLambdaReceiver/2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFucntionWithLambdaReceiver/3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFucntionWithLambdaReceiver/4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/5.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -117,67 +125,67 @@
       <recent name="D:\Github\Belajar-Kotlin\src\main\kotlin\com\alfan\kotlin\modul3\collectionsOperations" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.com.alfan.kotlin.modul4.libraryHelper._1Kt">
-    <configuration name="com.alfan.kotlin.modul4.functionType._1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.com.alfan.kotlin.modul4.memberReferences._4Kt">
+    <configuration name="com.alfan.kotlin.modul4.memberReferences._2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-starter.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul4.functionType._1Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul4.memberReferences._2Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.alfan.kotlin.modul4.higherOrderFunction._1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.alfan.kotlin.modul4.memberReferences._3Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-starter.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul4.higherOrderFunction._1Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul4.memberReferences._3Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.alfan.kotlin.modul4.lambdaWithReceiver._1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.alfan.kotlin.modul4.memberReferences._4Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-starter.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul4.lambdaWithReceiver._1Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul4.memberReferences._4Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.alfan.kotlin.modul4.lambda._1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.alfan.kotlin.modul4.scopeFunctionWithLambdaArgument._4Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-starter.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul4.lambda._1Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul4.scopeFunctionWithLambdaArgument._4Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.alfan.kotlin.modul4.libraryHelper._1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.alfan.kotlin.modul4.scopeFunctionWithLambdaArgument._5Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-starter.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul4.libraryHelper._1Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul4.scopeFunctionWithLambdaArgument._5Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.com.alfan.kotlin.modul4.libraryHelper._1Kt" />
-        <item itemvalue="Kotlin.com.alfan.kotlin.modul4.functionType._1Kt" />
-        <item itemvalue="Kotlin.com.alfan.kotlin.modul4.lambdaWithReceiver._1Kt" />
-        <item itemvalue="Kotlin.com.alfan.kotlin.modul4.higherOrderFunction._1Kt" />
-        <item itemvalue="Kotlin.com.alfan.kotlin.modul4.lambda._1Kt" />
+        <item itemvalue="Kotlin.com.alfan.kotlin.modul4.memberReferences._4Kt" />
+        <item itemvalue="Kotlin.com.alfan.kotlin.modul4.memberReferences._3Kt" />
+        <item itemvalue="Kotlin.com.alfan.kotlin.modul4.memberReferences._2Kt" />
+        <item itemvalue="Kotlin.com.alfan.kotlin.modul4.scopeFunctionWithLambdaArgument._5Kt" />
+        <item itemvalue="Kotlin.com.alfan.kotlin.modul4.scopeFunctionWithLambdaArgument._4Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -215,42 +223,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595066306891" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1595112940625">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1595169322895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595112940625" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595169322895" />
     <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595069008370" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1595112940625">
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1595169322895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595112940625" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595169322895" />
     <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595069008370" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1595112940625">
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1595169322895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595112940625" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595169322895" />
     <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595069008370" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1595112940625">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1595169322895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595112940625" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595169322895" />
     <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595069008370" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1595066629503">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1595168164504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595066629503" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1595066629502">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595168164504" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1595168164504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595066629502" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1595066629502">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595168164504" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1595168164504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595066629502" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1595066629502">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595168164504" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1595168164504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595066629502" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595168164504" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1594618167923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -259,10 +267,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594732825455" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595066135237">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595167922256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595066135237" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595167922256" />
     <state x="209" y="24" key="new project wizard" timestamp="1595066309628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -300,12 +308,12 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/libraryHelper/1.kt</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/4.kt</url>
+          <line>2</line>
           <properties method="main">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Range/range2.kt</url>
