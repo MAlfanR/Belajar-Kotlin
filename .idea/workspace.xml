@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71399ae7-fa2a-4979-a1c6-3fc7cb119c34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul5/classes/1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul5/constructor/1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul5/constructor/2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul5/constructor/3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul5/objectEverywhere/1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul5/properties/1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/abstract/1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/importDanPackages/1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/importDanPackages/2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/inheritances/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/inheritances/Cat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/membuatPackage/1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/membuatPackage/utils/myMath.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -15,12 +16,144 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/Kotlin-starter.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/Kotlin-starter.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul1/ArraysKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul1/BooleanKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul1/CharactersKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul1/DatatypesKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul1/FunctionsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul1/IfExpressionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul1/NullableTypesKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul1/NumbersKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul1/StringsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/ExpressionAndStatements/EAS1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/ExpressionAndStatements/EAS2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/ExpressionAndStatements/EAS3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/Perulangan/DoWhile1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/Perulangan/ForLoop1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/Perulangan/ForLoop2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/Perulangan/ForLoop3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/Perulangan/ForLoop4Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/Perulangan/While1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/Range/Range1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/Range/Range2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/Range/Range3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/Range/Range4Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/WhenExpression/MenambahkanelseKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/WhenExpression/When1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/WhenExpression/When2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/WhenExpression/When3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/WhenExpression/When4Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/WhenExpression/When5Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/enumeration/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/enumeration/Colors$RED.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/enumeration/Colors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/enumeration/Enumeration1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/enumeration/Enumeration2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/enumeration/Enumeration3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/enumeration/Enumeration4Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/enumeration/Enumeration5Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/enumeration/Enumeration6Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/enumeration/Enumeration7Kt$WhenMappings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/enumeration/Enumeration7Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul2/enumeration/Warna.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/collections/List1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/collections/List2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/collectionsOperations/CountKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/collectionsOperations/FDanFnKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/collectionsOperations/MapKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/destructingDeclarations/DataUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/destructingDeclarations/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/destructingDeclarations/_2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/maps/Maps1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/menyalinDanMemodifikasiDataClass/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/penggunaanDataClass/DataPengguna.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/penggunaanDataClass/PDC1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/penggunaanDataClass/PDC2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/penggunaanDataClass/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/penggunaanDataClass/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/sequences/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/sequences/_2Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/sequences/_2Kt$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/sequences/_2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/sequences/_3Kt$main$sn$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/sequences/_3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul3/sets/Set1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/Recursion/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/Recursion/_2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/Recursion/_3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/advancedCollectionFunction/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/advancedCollectionFunction/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/advancedCollectionFunction/_2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/advancedCollectionFunction/_3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/advancedCollectionFunction/_4Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/advancedCollectionFunction/_5Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/advancedCollectionFunction/_6Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/advancedCollectionFunction/_7Kt$main$chunkedT$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/advancedCollectionFunction/_7Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/extensions/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/functionInsideFunction/_1Kt$setWord$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/functionInsideFunction/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/functionInsideFunction/_2Kt$setKata$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/functionInsideFunction/_2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/functionInsideFunction/_3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/functionInsideFunction/_4Kt$jumlah$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/functionInsideFunction/_4Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/functionInsideFunction/_5Kt$sums$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/functionInsideFunction/_5Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/functionType/_1Kt$multiply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/functionType/_1Kt$sum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/functionType/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/higherOrderFunction/_1Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/higherOrderFunction/_1Kt$sum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/higherOrderFunction/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/lambda/_1Kt$panjangPesan$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/lambda/_1Kt$pesan$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/lambda/_1Kt$printPesan$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/lambda/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/lambdaWithReceiver/_1Kt$main$pesan$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/lambdaWithReceiver/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/libraryHelper/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/memberReferences/_1Kt$sum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/memberReferences/_1Kt$total$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/memberReferences/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/memberReferences/_2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/memberReferences/_3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/memberReferences/_4Kt$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/memberReferences/_4Kt$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/memberReferences/_4Kt$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/memberReferences/_4Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/namedDanDefaultArgument/DefaultArgumenKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/namedDanDefaultArgument/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/nullableReceiver/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/nullableReceiver/_2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/scopeFucntionWithLambdaReceiver/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/scopeFucntionWithLambdaReceiver/_2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/scopeFucntionWithLambdaReceiver/_3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/scopeFucntionWithLambdaReceiver/_4Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/_2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/_3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/_4Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/_5Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/varargArgument/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul4/varargArgument/_2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul5/classes/Hewan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul5/classes/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul5/constructor/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul5/constructor/Hewans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul5/constructor/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul5/constructor/_2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul5/objectEverywhere/_1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul5/properties/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/alfan/kotlin/modul5/properties/_1Kt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
@@ -54,6 +187,18 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
@@ -76,6 +221,103 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul1/Arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul1/Arrays.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul1/Boolean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul1/Boolean.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul1/Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul1/Characters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul1/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul1/Functions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul1/NullableTypes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul1/NullableTypes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul1/Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul1/Numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul1/Strings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul1/Strings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul1/datatypes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul1/datatypes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul1/ifExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul1/ifExpression.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/ExpressionAndStatements/EAS1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/ExpressionAndStatements/EAS1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/ExpressionAndStatements/EAS2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/ExpressionAndStatements/EAS2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/ExpressionAndStatements/EAS3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/ExpressionAndStatements/EAS3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Perulangan/ForLoop1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/Perulangan/ForLoop1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Perulangan/ForLoop2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/Perulangan/ForLoop2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Perulangan/ForLoop3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/Perulangan/ForLoop3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Perulangan/ForLoop4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/Perulangan/ForLoop4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Perulangan/doWhile1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/Perulangan/doWhile1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Perulangan/while1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/Perulangan/while1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Range/range1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/Range/range1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Range/range2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/Range/range2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Range/range3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/Range/range3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Range/range4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/Range/range4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/WhenExpression/When1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/WhenExpression/When1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/WhenExpression/When2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/WhenExpression/When2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/WhenExpression/When4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/WhenExpression/When4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/WhenExpression/menambahkanelse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/WhenExpression/menambahkanelse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/WhenExpression/when3.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/WhenExpression/when5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/WhenExpression/when5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/enumeration/enumeration1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/enumeration/enumeration1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/enumeration/enumeration2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/enumeration/enumeration2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/enumeration/enumeration3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/enumeration/enumeration3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/enumeration/enumeration4.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/enumeration/enumeration5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/enumeration/enumeration5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/enumeration/enumeration6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/enumeration/enumeration6.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/enumeration/enumeration7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul2/enumeration/enumeration7.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/collections/list1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul3/collections/list1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/collections/list2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul3/collections/list2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/collectionsOperations/count.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul3/collectionsOperations/count.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/collectionsOperations/fDanFn.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul3/collectionsOperations/fDanFn.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/collectionsOperations/map.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/destructingDeclarations/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul3/destructingDeclarations/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/destructingDeclarations/2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul3/destructingDeclarations/2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/maps/maps1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul3/maps/maps1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/menyalinDanMemodifikasiDataClass/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul3/menyalinDanMemodifikasiDataClass/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/penggunaanDataClass/PDC1.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/penggunaanDataClass/PDC2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul3/penggunaanDataClass/PDC2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/sequences/1.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/sequences/2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul3/sequences/2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/sequences/3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul3/sequences/3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/sets/set1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul3/sets/set1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/Recursion/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/Recursion/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/Recursion/2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/Recursion/2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/Recursion/3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/Recursion/3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/advancedCollectionFunction/1.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/advancedCollectionFunction/2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/advancedCollectionFunction/2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/advancedCollectionFunction/3.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/advancedCollectionFunction/4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/advancedCollectionFunction/4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/advancedCollectionFunction/5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/advancedCollectionFunction/5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/advancedCollectionFunction/6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/advancedCollectionFunction/6.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/advancedCollectionFunction/7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/advancedCollectionFunction/7.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/extensions/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/extensions/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/functionInsideFunction/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/functionInsideFunction/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/functionInsideFunction/2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/functionInsideFunction/2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/functionInsideFunction/3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/functionInsideFunction/3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/functionInsideFunction/4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/functionInsideFunction/4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/functionInsideFunction/5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/functionInsideFunction/5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/functionType/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/functionType/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/functionalProgramming/fp1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/functionalProgramming/fp1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/higherOrderFunction/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/higherOrderFunction/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/lambda/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/lambda/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/lambdaWithReceiver/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/lambdaWithReceiver/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/libraryHelper/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/libraryHelper/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/memberReferences/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/memberReferences/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/memberReferences/2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/memberReferences/2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/memberReferences/3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/memberReferences/3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/memberReferences/4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/memberReferences/4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/namedDanDefaultArgument/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/namedDanDefaultArgument/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/namedDanDefaultArgument/defaultArgumen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/namedDanDefaultArgument/defaultArgumen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/nullableReceiver/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/nullableReceiver/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/nullableReceiver/2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/nullableReceiver/2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFucntionWithLambdaReceiver/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/scopeFucntionWithLambdaReceiver/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFucntionWithLambdaReceiver/2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/scopeFucntionWithLambdaReceiver/2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFucntionWithLambdaReceiver/3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/scopeFucntionWithLambdaReceiver/3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFucntionWithLambdaReceiver/4.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/scopeFunctionWithLambdaArgument/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/scopeFunctionWithLambdaArgument/2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/scopeFunctionWithLambdaArgument/3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/scopeFunctionWithLambdaArgument/4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/scopeFunctionWithLambdaArgument/5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/varargArgument/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/varargArgument/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/varargArgument/2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul4/varargArgument/2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul5/classes/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/classes/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul5/constructor/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/constructor/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul5/constructor/2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/constructor/2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul5/constructor/3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/constructor/3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul5/objectEverywhere/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/objectEverywhere/1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul5/properties/1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fans/modul5/properties/1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,67 +366,67 @@
       <recent name="D:\Github\Belajar-Kotlin\src\main\kotlin\com\alfan\kotlin\modul3\collectionsOperations" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.com.alfan.kotlin.modul5.constructor._3Kt">
-    <configuration name="com.alfan.kotlin.modul5.classes._1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.fans.modul5.membuatPackage._1Kt">
+    <configuration name="com.alfan.kotlin.modul5.importDanPackages._2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-starter.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul5.classes._1Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul5.importDanPackages._2Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.alfan.kotlin.modul5.constructor._1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="fans.modul3.destructingDeclarations._1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-starter.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul5.constructor._1Kt" />
+      <option name="MAIN_CLASS_NAME" value="fans.modul3.destructingDeclarations._1Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.alfan.kotlin.modul5.constructor._2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="fans.modul3.sequences._3Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-starter.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul5.constructor._2Kt" />
+      <option name="MAIN_CLASS_NAME" value="fans.modul3.sequences._3Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.alfan.kotlin.modul5.constructor._3Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="fans.modul4.functionInsideFunction._1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-starter.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul5.constructor._3Kt" />
+      <option name="MAIN_CLASS_NAME" value="fans.modul4.functionInsideFunction._1Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.alfan.kotlin.modul5.properties._1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="fans.modul5.membuatPackage._1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-starter.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.alfan.kotlin.modul5.properties._1Kt" />
+      <option name="MAIN_CLASS_NAME" value="fans.modul5.membuatPackage._1Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,11 +434,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.com.alfan.kotlin.modul5.constructor._3Kt" />
-        <item itemvalue="Kotlin.com.alfan.kotlin.modul5.constructor._2Kt" />
-        <item itemvalue="Kotlin.com.alfan.kotlin.modul5.constructor._1Kt" />
-        <item itemvalue="Kotlin.com.alfan.kotlin.modul5.properties._1Kt" />
-        <item itemvalue="Kotlin.com.alfan.kotlin.modul5.classes._1Kt" />
+        <item itemvalue="Kotlin.fans.modul5.membuatPackage._1Kt" />
+        <item itemvalue="Kotlin.fans.modul4.functionInsideFunction._1Kt" />
+        <item itemvalue="Kotlin.fans.modul3.sequences._3Kt" />
+        <item itemvalue="Kotlin.fans.modul3.destructingDeclarations._1Kt" />
+        <item itemvalue="Kotlin.com.alfan.kotlin.modul5.importDanPackages._2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -226,25 +468,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595175124456" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1595234234090">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1595286869128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595234234090" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595286869128" />
     <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595069008370" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1595234234090">
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1595286869127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595234234090" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595286869127" />
     <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595069008370" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1595234234090">
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1595286869127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595234234090" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595286869127" />
     <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595069008370" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1595234234090">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1595286869128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595234234090" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595286869128" />
     <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595069008370" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1595175780733">
       <screen x="0" y="0" width="1536" height="824" />
@@ -287,39 +529,47 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul1/NullableTypes.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/fans/modul1/NullableTypes.kt</url>
           <line>2</line>
-          <properties method="main">
+          <properties>
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Range/range2.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/fans/modul2/Range/range2.kt</url>
           <line>2</line>
-          <properties method="main">
+          <properties>
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul3/sequences/3.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/fans/modul3/sequences/3.kt</url>
           <line>2</line>
-          <properties method="main">
+          <properties>
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul4/scopeFunctionWithLambdaArgument/4.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/fans/modul4/scopeFunctionWithLambdaArgument/4.kt</url>
           <line>2</line>
-          <properties method="main">
+          <properties>
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/fans/modul5/inheritances/Animal.kt</url>
+          <line>2</line>
+          <properties class="com.alfan.kotlin.modul5.inheritances.Animal">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/alfan/kotlin/modul2/Range/range2.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/fans/modul2/Range/range2.kt</url>
           <line>3</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
