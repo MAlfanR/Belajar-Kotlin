@@ -1,0 +1,18 @@
+package fans.modul5.propertyDelegation
+
+import kotlin.reflect.KProperty
+
+class DelegateName {
+    private var value: String = "Default"
+
+    operator fun getValue(classRef: Any?, property: KProperty<*>): String{
+        println("Fungsi ini sama seperti getter untuk properti ${property.name} pada class $classRef")
+        return value
+    }
+
+    operator fun setValue(classRef: Any?, property: KProperty<*>, nilaiBaru: String){
+        println("Fungsi ini sama seperti setter untuk properti ${property.name} pada class $classRef")
+        println("Nilai ${property.name} dari: $value akan berubah menjadi $nilaiBaru")
+        value = nilaiBaru
+    }
+}
